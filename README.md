@@ -27,6 +27,11 @@ You may need to close and reopen your terminal after installation. Alternatively
 ```bash
 export OPENAI_API_KEY='sk-XXXXXXXX'
 ```
+```bash
+export PATH="$HOME/.bin:$PATH"
+source ~/.zshrc
+```
+
 
 Once you have configured your environment, stage some changes by running, for example, `git add .`, and then run `auto-commit`.
 
